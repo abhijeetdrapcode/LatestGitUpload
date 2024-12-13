@@ -1,0 +1,107 @@
+.github-integration-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.github-integration-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.github-login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.github-login-button:hover {
+  background-color: #45a049;
+}
+
+.user-profile {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.user-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.repository-section {
+  margin-bottom: 20px;
+}
+
+.repository-label,
+.folder-path-label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.repository-select,
+.folder-path-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+}
+
+.upload-status {
+  margin-bottom: 10px;
+}
+
+.upload-status.error {
+  color: red;
+}
+
+.upload-status.success {
+  color: green;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.upload-button,
+.logout-button {
+  flex: 1;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.upload-button {
+  background-color: #2196F3;
+}
+
+.upload-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.upload-button:not(:disabled):hover {
+  background-color: #1976D2;
+}
+
+.logout-button {
+  background-color: #f44336;
+}
+
+.logout-button:hover {
+  background-color: #d32f2f;
+}
